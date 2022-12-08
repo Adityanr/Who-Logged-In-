@@ -12,4 +12,8 @@
 
 **CommandCam**
 
-CommandCam from https://github.com/tedburke/CommandCam has been used to take snap using system camera upon login.
+CommandCam from https://github.com/tedburke/CommandCam [1] has been used to take snap using system camera upon login.
+
+**References**
+
+1. Burke, T. Tedburke/CommandCam: A command line webcam image grabber for windows, GitHub. Available at: https://github.com/tedburke/CommandCam (Accessed: December 8, 2022). 
