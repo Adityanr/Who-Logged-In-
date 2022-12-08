@@ -1,0 +1,3 @@
+%Full_Path_To_CommandCam_Exe%\CommandCam.exe
+(Get-Content %Full_Path_To_Message_Template_Json%\message_template.json).replace('{base64_bmp}', $(base64 C:\Users\%username%\AppData\Local\VirtualStore\Windows\SysWOW64\image.bmp)) | Set-Content %Full_Path_To_Message_Json%\message.json
+aws ses send-raw-email --cli-binary-format raw-in-base64-out --raw-message file://%Full_Path_To_Message_Json%/message.json

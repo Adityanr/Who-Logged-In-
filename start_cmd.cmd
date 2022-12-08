@@ -1,0 +1,1 @@
+PowerShell %Full_Path_To_Powershell_Script%\start_ps.ps1 >> "%TEMP%\StartupLog.txt" 2>&1
